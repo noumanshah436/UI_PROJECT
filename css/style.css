@@ -1,0 +1,188 @@
+html,
+body {
+  color: black;
+  /* font-family: 'Poppins'; */
+}
+.navbar {
+  padding: .8rem
+}
+
+.nav-link {
+  font-size: 1.2rem !important;
+}
+
+.navbar-nav li {
+  padding: 10px;
+}
+
+
+.sm-icons {
+  color: black;
+  flex-direction: row;
+}
+
+.sm-icons .nav-link {
+  padding-right: 1em;
+}
+
+
+
+.color-overlay {
+  min-height: 60vh;
+}
+
+.header {
+  position: relative;
+}
+
+.parent {
+  position: relative;
+}
+
+.child-2 {
+  position: absolute;
+  top: 110%;
+  right: 120%;
+}
+
+.set-image {
+  background-color: white;
+  width: 120px;
+  height: 150px;
+  display: flex;
+  justify-content: end;
+  margin-top: -80px;
+  z-index: 1;
+}
+.set-margin{
+  margin-top: 10px;
+  margin-right: -12px;
+}
+
+.footer-bg{
+  background-color: #E7F5F8;
+}
+
+/*
+@media only screen and (max-width: 350px) {
+  .bottomright {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+
+  .trend {
+
+    margin-bottom: 0px;
+  }
+
+}
+
+@media only screen and (min-width: 350px) {
+  .bottomright {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .trend {
+
+    margin-bottom: 0px;
+  }
+
+} */
+
+
+@media only screen and (max-width: 350px) {
+  .bottomright {
+    position: absolute;
+    top: 2%;
+    right: 0%;
+    padding: 2%;
+  }
+
+  .trend {
+
+    display: none;
+  }
+
+  .topright {
+    position: absolute;
+    bottom: 10%;
+    left: 5%
+  }
+}
+
+@media only screen and (min-width: 350px) {
+  .bottomright {
+    position: absolute;
+    bottom: 8%;
+    right: 3%;
+  }
+
+  .trend {
+    margin-bottom: 0px;
+  }
+
+  .topright {
+    position: absolute;
+    bottom: 10%;
+    left: 5%
+  }
+
+}
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) {
+  .bottomright {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+
+  }
+
+  .topright {
+    position: absolute;
+    bottom: 20%;
+    left: 10%
+  }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .bottomright {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+  .bottomright {
+    position: absolute;
+    bottom: 30%;
+    right: 10%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .bottomright {
+    position: absolute;
+    bottom: 30%;
+    right: 20%;
+  }
+
+  .topright {
+    position: absolute;
+    bottom: 20%;
+    left: 10%
+  }
+}
